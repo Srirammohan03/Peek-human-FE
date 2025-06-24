@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap');
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap");
 
 /* 
 h1{
@@ -63,7 +59,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #d89850;
-
 }
 
 header.fixed {
@@ -78,7 +73,7 @@ header.fixed {
 }
 
 .banner {
-  background-image: url('../images/banner.jpg');
+  background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -98,7 +93,6 @@ h1 {
 }
 
 .banner-content p {
-
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
@@ -123,7 +117,8 @@ h1 {
 
 input,
 select,
-option {}
+option {
+}
 
 #myForm #form-button {
   padding: 20px 50px;
@@ -186,10 +181,11 @@ span label {
   padding: 20px 0;
 }
 
-.fill-form-here {}
+.fill-form-here {
+}
 
 .clinic {
-  padding: 50px 0
+  padding: 50px 0;
 }
 
 input[type="checkbox"] {
@@ -222,19 +218,16 @@ input[type="checkbox"]:checked::before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .clinic-client-img {
   width: calc(43% - 20px);
-
 }
 
 .clinic-client-img img {
   width: 100%;
 
   object-fit: cover;
-
 }
 
 .clinic-data {
@@ -248,7 +241,6 @@ input[type="checkbox"]:checked::before {
   color: #d89850;
   font-size: 100px;
   font-weight: 400;
-
 }
 
 .clinic-client-benfit h2 {
@@ -272,7 +264,7 @@ input[type="checkbox"]:checked::before {
   height: 35px;
   text-align: center;
   padding: 5px;
-  box-shadow: 0px 0px 8px 0px #525252
+  box-shadow: 0px 0px 8px 0px #525252;
 }
 
 .clinic-client-img {
@@ -280,7 +272,6 @@ input[type="checkbox"]:checked::before {
   overflow: hidden;
 
   height: 50vh;
-
 }
 
 .clinic-client-img img {
@@ -293,8 +284,6 @@ input[type="checkbox"]:checked::before {
   top: 0;
   left: 0;
 }
-
-
 
 .clinic-data {
   cursor: pointer;
@@ -317,26 +306,23 @@ h3 {
 
 .machine-video {
   position: relative;
- 
+
   margin: 20px auto;
   cursor: pointer;
- 
 }
-.video-slid{
+.video-slid {
   width: 100%;
   overflow: hidden;
 }
-.video-slider{
-  display: flex ;
-      transition: transform 0.5s ease-in-out;
-      width: 100%;
+.video-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
 }
 
-
-.video-play{
+.video-play {
   position: relative;
- width: 50%;
-
+  width: 50%;
 }
 .video.active .video-play {
   animation: videoZoom 0.5s ease forwards;
@@ -363,7 +349,7 @@ h3 {
     opacity: 1;
   }
   100% {
-    transform:  translateY(100%);
+    transform: translateY(100%);
     opacity: 0;
   }
 }
@@ -375,30 +361,29 @@ h3 {
   display: flex !important;
   justify-content: center;
   align-items: center;
-  flex: 0 0 95% ;  /* or any width you want for the slider item */
+  flex: 0 0 95%; /* or any width you want for the slider item */
   max-width: 95%;
 }
 .video-wrapper img {
   width: 70%;
-    height: auto;
-    object-fit: contain;
-    display: block;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 section.video {
   opacity: 0;
   /* display: none; */
- position: absolute;
+  position: absolute;
   /* top: 0; left: 0;
   width: 100%; height: 100%; */
   /* background: rgba(0,0,0,0.8);
   justify-content: center;
   align-items: center;
   z-index: 999; */
- 
 }
 .video.active {
   position: fixed;
-  inset: 0;  /* stretches full screen */
+  inset: 0; /* stretches full screen */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -410,7 +395,7 @@ section.video {
 }
 .custom-video {
   width: 100%;
-    height: auto;
+  height: auto;
 }
 
 .close-btn {
@@ -437,7 +422,7 @@ section.video {
   color: #d99a53;
   background-color: #fff;
   border: 3px solid #d99a53;
-box-shadow: 0 0 8px 0 #4c4c4c;
+  box-shadow: 0 0 8px 0 #4c4c4c;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -477,12 +462,12 @@ button.prev-btn {
 button.next-btn {
   position: absolute;
   top: 50%;
-    right: 0%;
-    color: #d99a53;
-    background-color: #fff;
+  right: 0%;
+  color: #d99a53;
+  background-color: #fff;
   border: 0;
   box-shadow: 0 0 8px 0 #4c4c4c;
-    font-size: 30px;
+  font-size: 30px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -525,7 +510,7 @@ button.next-btn {
 
 .testimonial-content {
   flex: 0 0 30%;
-  background-image: url('../images/section3-back.jpg');
+  background-image: url("../images/section3-back.jpg");
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -536,10 +521,9 @@ button.next-btn {
   transform: scale(0.95);
 }
 .testimonial-content:hover {
-transform: scale(1);
+  transform: scale(1);
 
-box-shadow:0px 0 20px 7px #4c4c4c;
-
+  box-shadow: 0px 0 20px 7px #4c4c4c;
 }
 .testimonial-people {
   display: flex;
@@ -589,7 +573,6 @@ box-shadow:0px 0 20px 7px #4c4c4c;
 
 .question-icon i {
   transition: transform 0.3 ease;
-
 }
 
 .question {
@@ -608,12 +591,10 @@ box-shadow:0px 0 20px 7px #4c4c4c;
 .question-right {
   max-width: 43%;
   flex: 0 0 43%;
-  margin: 0 0px 0 -18.5px
+  margin: 0 0px 0 -18.5px;
 }
 
 .question-right img {
- 
- 
 }
 
 .question-content {
@@ -626,10 +607,9 @@ box-shadow:0px 0 20px 7px #4c4c4c;
   height: 30px;
   border: 2px solid #4b4b4b45;
   border-radius: 50%;
-  display: flex ;
-      align-items: center;
-      justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .para {
@@ -653,7 +633,7 @@ box-shadow:0px 0 20px 7px #4c4c4c;
 }
 
 .contact-head {
- padding: 60px 0;
+  padding: 60px 0;
 }
 
 .contact-head .contact-head-data {
@@ -667,7 +647,6 @@ box-shadow:0px 0 20px 7px #4c4c4c;
   gap: 5%;
   padding: 35px 60px;
   margin: 0 auto;
-
 }
 
 .contact-head .contact-head-data img {
@@ -710,9 +689,8 @@ box-shadow:0px 0 20px 7px #4c4c4c;
 }
 .contact-data:hover {
   transform: scale(1);
-  box-shadow:0px 0 20px 7px #4c4c4c;
+  box-shadow: 0px 0 20px 7px #4c4c4c;
 }
-
 
 .contact-data h5 {
   font-size: 26px;
@@ -732,33 +710,32 @@ box-shadow:0px 0 20px 7px #4c4c4c;
   width: 100%;
 }
 
-
-footer{
+footer {
   background-color: #3d4a69;
   padding: 70px 0 25px 0;
 }
-.foot-logo{
-text-align: center;
-margin: 0 auto;
-padding-bottom: 30px;
+.foot-logo {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
-.foot-logo img{
+.foot-logo img {
   max-width: 100%;
 }
-.foot-data{
+.foot-data {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.foot-data p{
+.foot-data p {
   font-size: 16px;
   color: #fff;
   font-weight: 700;
 }
-.foot-icon{
+.foot-icon {
   text-align: center;
 }
-.foot-icon i{
+.foot-icon i {
   width: 30px;
   height: 30px;
   border: 2px solid #fff;
@@ -771,8 +748,6 @@ padding-bottom: 30px;
   padding: 20px 0 0 0;
 }
 
-
-
 .contact-data.slick-slide.slick-current.slick-active {
   width: 100%;
 }
@@ -783,10 +758,20 @@ padding-bottom: 30px;
 .clinic-client-img .slider img {
   width: 100%;
   object-fit: cover;
-} 
+}
 .nav-close {
- opacity: 0;
+  opacity: 0;
 }
 .nav-toggle {
- opacity: 0;
+  opacity: 0;
+}
+.author {
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 0;
+  color: #fff;
+}
+.author p strong {
+  color: #f3b42b;
+  font-size: 44px;
 }
