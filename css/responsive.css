@@ -1,0 +1,660 @@
+
+ @media (max-width: 1720px) {
+  .container{
+    width: 1320px;
+    margin: 0 auto;
+
+  } 
+  .banner-content {
+    padding: 200px 0;
+    width: calc(50% - 20px);
+}
+  .question-right img {
+    max-width: 146%;
+}
+.question-right {
+  margin: 0 0px 0 -29.5px;
+}
+#first-name, #last-name, #email, #phone, #address, #contact-u, option {
+  margin: 10px 16px 10px 25px;
+}
+.clinic-flex {
+  gap: 70px;
+}
+.testimonial-content {
+  background-size: contain;
+}
+.contact-head .contact-head-data {
+  width: calc(86% - 20px);
+}
+.question-left {
+  padding: 66px 0;
+}
+
+}
+@media (max-width: 1620px) {
+  .container{
+    width: 1220px;
+    margin: 0 auto;
+
+  } 
+  .banner-content {
+    padding: 200px 0;
+    width: calc(54% - 20px);
+}
+#first-name, #last-name, #email, #phone, #address, #contact-u, option {
+  margin: 10px 7px 10px 9px;
+}
+.clinic-client-img {
+  width: calc(57% - 20px);
+}
+.question-left h2 {
+  font-size: 45px;
+}
+.question-left {
+  padding: 48px 0;
+}
+.question-right img {
+  max-width: 148%;
+}
+.contact-head .contact-head-data {
+  width: calc(95% - 20px);
+}
+
+} 
+@media (max-width: 1520px) { 
+   .question-right img {
+  max-width: 137%;
+}
+.question-right {
+  margin: 0 0px 0 -22px;
+}
+.question-left {
+  padding: 29px 0;
+}
+button.prev-btn {
+  left: 9%;
+}
+button.next-btn {
+  right: 9%;
+}
+}
+
+@media (max-width: 1470px) { 
+  .question-right {
+    margin: 0 0px 0 -48px;
+}
+
+}
+@media (max-width: 1400px) {
+    .container{
+      width: 1150px;
+      margin: 0 auto;
+
+    
+    }
+    .banner-content {
+      padding: 145px 0;
+      width: calc(52% - 20px);
+  }
+  h1 {
+    font-size: 60px;
+  }
+  #first-name, #last-name, #email, #phone, #address, #contact-u, option {
+    padding: 11px;
+  }
+  .form-val h2 {
+    padding: 0px 30px;
+  }
+
+  .question-right {
+    margin: 0 0px 0 -79px;
+}
+  .question-right img {
+    max-width: 144%;
+}
+
+.question-left h2 {
+  font-size: 42px;
+  padding-bottom: 15px;
+}
+.contact-head .contact-head-data img {
+  max-width: 80%;
+}
+.contact-head .contact-head-data h6 {
+  font-size: 25px;
+}
+
+}
+
+@media (max-width: 1376px) {
+  .question-right {
+    margin: 0 0px 0 -92px;
+}
+  
+}
+@media (max-width: 1366px) { 
+  .question-right {
+    margin: 0 0px 0 -78px;
+}
+.question-right img {
+  max-width: 139%;
+}
+
+}
+@media (max-width: 1350px) { 
+  .container {
+    width: 1050px;
+    margin: 0 auto;
+}
+  .question-right {
+    max-width: 40%;
+    flex: 0 0 40%;
+  }
+  .question-right {
+    margin: 0 0px 0 -53px;
+}
+.question-data {
+  padding: 12px;
+}
+
+}
+@media (max-width: 1320px) { 
+.question-right img {
+  max-width: 134%;
+}
+.question-left {
+  max-width: 45%;
+  flex: 0 0 45%;
+}
+.question-right {
+  margin: 0 0px 0 0px;
+}
+.question-data {
+  margin-bottom: 10px;
+}
+.para.active {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+}
+
+@media  (max-width: 1220px) {
+  .container{
+    width: 920px;
+    margin: 0 auto;
+  }
+  .banner-content {
+    padding: 125px 0;
+    width: calc(62% - 20px);
+}
+h1 {
+  font-size: 54px;
+line-height: 55px;
+}
+.banner-content p {
+  line-height: 28px;
+}
+.form-val h2 {
+  padding: 0px 20px;
+}
+.clinic-client-img {
+  width: calc(70% - 20px);
+}
+.question-left h2 {
+  font-size: 32px;
+}
+.question-right {
+  margin: 0 0px 0 35px;
+}
+.question-right img {
+  max-width: 141%;
+}
+.contact-head .contact-head-data h6 {
+  font-size: 18px;
+}
+.contact-data .contact-icon i {
+  font-size: 24px;
+}
+.contact-data h5 {
+  font-size: 24px;
+}
+.contact-data p {
+  line-height: 22px;
+}
+
+}
+
+@media (max-width: 1199px) {
+  .container{
+    width: 80%;
+  }
+  .question-right {
+    display: none;
+}
+.question-left {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.contact-slider.slick-initialized.slick-slider {
+  width: 100% !important;
+}
+}
+@media (max-width: 991px) {
+  .container{
+    width: 80%;
+  }
+  
+ul {
+  gap: 15px;
+}
+.banner-content {
+  padding: 65px 0;
+}
+h1 {
+  font-size: 45px;
+  line-height: 45px;
+  padding-bottom: 18px;
+}
+.banner-content p {
+  line-height: 24px;
+  font-size: 14px;
+}
+.form-val {
+  margin-top: -45px;
+}
+#first-name, #last-name, #email, #phone, #address, #contact-u, option {
+  padding: 5px;
+}
+#first-name, #last-name, #email, #phone, #address, #contact-u, option {
+  font-size: 14px;
+  line-height: 14px;
+}
+#first-name, #last-name, #email, #phone, #address, #contact-u, option {
+  margin: 10px 5px 10px 5px;
+}
+#insurance-yes, #insurance-no {
+  margin-right: 2px;
+  font-size: 14px;
+}
+span label {
+  margin-right: 0px;
+}
+.clinic-client-benfit h2 {  
+  font-size: 35px;
+}
+.clinic-data p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.clinic-data {
+  padding: 5px;
+}
+button.prev-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+button.next-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+
+}
+
+.contact-head .contact-head-data {
+  gap: 0;
+}
+.contact-head .contact-head-data img {
+  max-width: 50%;
+}
+.contact-head .contact-head-data h6 {
+  font-size: 15px;
+}
+.contact-data p {
+  font-size: 13px;
+}
+
+
+.testimonial-data {
+  /* display: block;
+  width: calc(75% - 20px);
+  margin: 0 auto; */
+  gap: 7px;
+}
+.test-people img {
+  width: 100%;
+}
+.testimonial-data {
+  gap: 40px;
+}
+.testimonial-people h4 {
+  font-size: 18px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.test-people {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.testimonial-content i {
+  font-size: 16px;
+  line-height: 14px;
+}
+.testimonial-content {
+ 
+  border: 3px solid #000;
+}
+button.slick-prev.slick-arrow {
+  left: -15%;
+  top: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+}
+button.slick-next.slick-arrow {
+  position: absolute;
+  right: -15%;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+}
+
+.contact-data {
+  flex: 0 0 22%;
+  text-align: center;
+  padding: 9px;
+width: 22%;
+  
+}
+}
+@media (min-width: 769px) {
+  .nav-close {
+    display: block;
+  }
+  .nav-toggle {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    width: 80%;
+  }
+  nav {
+    position: relative;
+  }
+  
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0%; 
+    height: 100vh;
+    width: 250px;
+    background: #e5bcbc;
+    flex-direction: column;
+    padding: 60px 20px;
+    transform: translateX(100%); 
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+    display: flex;
+  }
+  nav ul li a {
+
+      color: #242c3b;
+  }
+  nav ul li a:hover{
+    box-shadow: 0 1px 0px 0px #e9e9e9;
+    color: #fff;
+  }
+  
+  nav ul.show {
+    transform: translateX(0);
+  }
+  
+  .nav-toggle {
+    opacity: 1;
+    font-size: 26px;
+    color: #000;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1001;
+  }
+  
+  .nav-close {
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    left: 9%;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+  }
+  header {
+    justify-content: space-around;
+    align-items: normal;
+}
+h1 {
+  font-size: 33px;
+  line-height: 35px;
+  padding-bottom: 13px;
+}   
+.form-val h2 {
+  line-height: 49px;
+}
+.clinic {
+  padding: 10px 0;
+}
+.clinic-client-benfit h2 {
+  font-size: 30px;
+}
+.clinic-data p {
+  line-height: 15px;
+}
+.clinic-data i {
+  width: 30px;
+  height: 30px;
+}
+.clinic-flex {
+  gap: 20px;
+}
+.clinic-client-img {
+  width: calc(100% - 20px);
+}
+.contact-head .contact-head-data img {
+  max-width: 80%;
+}
+.contact-head .contact-head-data h6 {
+  font-size: 23px;
+}
+.contact-data h5 {
+  font-size: 18px;
+}
+.contact-data p {
+  line-height: 20px;
+}
+.foot-data {
+  flex-direction: column;
+}
+.question {
+  background-color: #455271;
+ 
+
+}
+.contact-data {
+  flex: 0 0 25%;
+}
+.contact-data p {
+  font-size: 11px;
+}
+.testimonial-slider.slick-initialized.slick-slider {
+  width: 100%;
+}
+.test-people img {
+  max-width: 50%;
+}
+button.slick-prev.slick-arrow {
+  left: -5%;
+}
+button.slick-next.slick-arrow {
+  
+  right: -5%;
+}
+
+}
+
+	
+@media (max-width: 576px) {
+ 
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .banner-content p {
+    line-height: 16px;
+}
+form#myForm {
+  display: block;
+  text-align: center;
+}
+span {
+  display: block;
+  text-align: center;
+}
+.clinic-flex {
+  flex-direction: column;
+}
+.testimonial-people h4 {
+  font-size: 18px;
+}
+.testimonial-content i {
+  font-size: 14px;
+  line-height: 20px;
+}
+.testimonial-content {
+  padding: 25px;
+}
+.question-left h2 {
+  font-size: 22px;
+}
+.question-data h5 {
+  font-size: 14px;
+}
+.question-icon {
+  width: 20px;
+  height: 20px;
+}
+.contact {
+  padding: 0px 0;
+}
+.contact-head .contact-head-data h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.contact-head .contact-head-data {
+  padding: 15px 10px;
+}
+.contact-head {
+  padding: 20px 0;
+}
+.contact-data {
+  padding: 20px 0;
+}
+.foot-data {
+  gap: 10px;
+}
+
+
+
+}
+@media (max-width: 320px) {
+ 
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .head-logo img {
+    width: 80%;
+}
+.banner-content {
+  width: calc(100% - 20px);
+}
+.form-val h2 {
+  font-size: 21px;
+}
+form#myForm {
+  font-size: 15px;
+}
+.clinic-client-benfit span {
+
+  
+  text-align: left;
+}
+.clinic-client-benfit h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+.machine {
+  padding: 25px 0;
+}
+button.prev-btn {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+     left: 7%;
+}
+button.next-btn {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  right: 7%;
+}
+.play-overlay {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+.testimonial {
+  padding: 25px 0;
+}
+.testimonial-people {
+  gap: 4px;
+  flex-direction: column;
+}
+.testimonial-content i {
+  font-size: 8px;
+  line-height: 0;
+}
+button.slick-next.slick-arrow {
+  width: 20px;
+  height: 20px;
+
+}
+
+button.slick-prev.slick-arrow {
+  width: 20px;
+  height: 20px;
+}
+.contact-head .contact-head-data {
+  width: 100%;
+}
+
+
+
+
+
+}
